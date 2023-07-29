@@ -1,0 +1,76 @@
+.image-txt-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: justify;
+}
+
+.image-notebook {
+    max-width: 800px;
+}
+
+.notebook-text {
+    font-family: "Lucida Handwriting", monospace;
+    white-space: pre-line;
+    text-align: left;
+    max-width: 250px;
+    word-break: break-all 
+}
+
+.padding {
+    padding: 30px;
+}
+
+p {
+    padding-left: 30px;
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.img-contained {
+    max-height: 300px;
+    width: auto;
+}
+
+body {
+    width: 1000px;
+    margin: auto;
+}
+
+.container {
+    position: relative;
+    color: black;
+}
+
+.centered-right {
+    position: absolute;
+    bottom: 250px;
+    right: 250px;
+}
+
+.top-left {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+
+.centered-left {
+    position: absolute;
+    bottom: 150px;
+    left: 100px;
+}
+
+.top-right {
+    position: absolute;
+    top: 100px;
+    right: 250px;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 150px;
+    right: 290px;
+}
